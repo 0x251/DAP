@@ -17,6 +17,7 @@ Discord activity spammer, troll users by spamming the join and leave sound of an
 ### Issues
 - There is a proxy implementation already you will just need to configure it to work with the requests, Since discord likes to ratelimit
 - It breaks that current activity for everyone
+- Sometimes Per client it breaks, so session id in DAP.py code will need to be replaced with a sessionID you can get this by joining a activity monitoring the requests and see the sessionID being sent and replace it in DAP.py code, these ID's expire every 3 hours
 
 ### Trolling
 <img src="https://media.discordapp.net/attachments/1206601094663381012/1226159163403665530/image.png?ex=6623c0b5&is=66114bb5&hm=2ae382dd7af9155c6233055076656a43924d26104e4b35d1a5916b44401db21a&=&format=webp&quality=lossless"> </img>
